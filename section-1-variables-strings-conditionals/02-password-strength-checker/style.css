@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  transition: background 0.4s;
+}
+
+.container {
+  background: linear-gradient(135deg, #fff 60%, #e3f2fd 100%);
+  padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.13);
+  text-align: center;
+  width: 700px;
+  height: 500px;
+  border: 1px solid #e0eafc;
+  transition: box-shadow 0.3s;
+}
+
+h1 {
+  margin-bottom: 18px;
+  color: #2a3a4a;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  border: 2px solid #b0c4de;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  text-align: center;
+  background: #f7fafc;
+  transition:
+    border-color 0.3s,
+    box-shadow 0.3s;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(176, 196, 222, 0.07);
+}
+input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 0 2px #c8e6c9;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  background: linear-gradient(90deg, #4caf50 60%, #43a047 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.13);
+  transition:
+    background 0.3s,
+    box-shadow 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #43a047 60%, #388e3c 100%);
+  box-shadow: 0 4px 16px rgba(67, 160, 71, 0.18);
+}
+
+#result {
+  margin-top: 24px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #2a3a4a;
+  min-height: 32px;
+  transition: color 0.3s;
+  letter-spacing: 0.5px;
+}
