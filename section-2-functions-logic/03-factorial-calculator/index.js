@@ -13,8 +13,8 @@ function handleFactorial() {
         return;
     }
 
-    if (number > 20) {
-        showResult("Please enter a number 20 or below", "red");
+    if (number > 100) {
+        showResult("Please enter a number 100 or below", "red");
         return;
     }
 

@@ -19,7 +19,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 350px;
+    width: 550px;
+   
 }
 
 h1 {
@@ -36,10 +37,10 @@ input {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    border: 2px solid #ddd;
+    border: 2px solid #E5E7EB;
     border-radius: 6px;
     margin-bottom: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 button {
@@ -51,6 +52,7 @@ button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    
 }
 
 button:hover {
